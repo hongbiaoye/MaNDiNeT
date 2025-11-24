@@ -14,7 +14,7 @@
 # 1. cd Mamba_ssm
 # 2. pip install causal_conv1d-1.5.0.post8+cu11torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 # 3. pip install mamba_ssm-2.2.4+cu11torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
-# See: docs/模型训练与环境配置.md (Model training and environment setup)
+# See: docs/Model_Training_and_Environment_Setup.md (Model training and environment setup)
 
 # ========== Data Processing Libraries ==========
 numpy==1.26.4
