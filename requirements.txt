@@ -1,0 +1,38 @@
+# ManDINet project dependency list
+# Python version: 3.10
+# CUDA version: 11.8
+# PyTorch version: 2.1.2
+
+# ========== Deep Learning Frameworks ==========
+# Note: Install PyTorch from conda or the official channel with CUDA 11.8 support
+# conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+# Or visit https://pytorch.org/get-started/previous-versions/ for installation commands
+
+# ========== Mamba SSM Library ==========
+# ⚠️ Important: Install Mamba SSM from local wheel files; pip install is not supported
+# Installation steps:
+# 1. cd Mamba_ssm
+# 2. pip install causal_conv1d-1.5.0.post8+cu11torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+# 3. pip install mamba_ssm-2.2.4+cu11torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+# See: docs/模型训练与环境配置.md
+
+# ========== Data Processing Libraries ==========
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.6.1
+
+# ========== Feature Extraction Libraries ==========
+nolds==0.6.1
+antropy==0.1.9
+
+# ========== Utility Libraries ==========
+einops==0.8.1
+tqdm==4.66.5
+openpyxl==3.1.5
+xlrd==2.0.1
+
+# ========== Optional Dependencies ==========
+# matplotlib==3.10.1  # Used for visualization (if needed)
+# seaborn==0.13.2      # Used for data visualization (if needed)
+
